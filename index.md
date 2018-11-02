@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "sih"    # what kind of Carpentry (must be either "lc" or "dc" or "swc") FIXME customise to sih and sihp for partner workshops
-venue: "New Law Building Learning Studio 030 University of Sydney"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Data Carpentry Geospatial Workshop - University of Sydney"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "New Law Building Learning Studio 030, University of Sydney Camperdown Campus, NSW 2050"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "-33.887563,151.190263"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Dec 10th- 11th - 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Dec 10th - 11th - 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-12-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-12-11         # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Darya Vanichkina"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["darya.vanichkina@sydney.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://unisyd-my.sharepoint.com/:w:/g/personal/nicholas_ho_sydney_edu_au/EWrpk_c7aZVPv8j4FkIboeABXXJE2xhjjPkwAYcM0CiXXQ?e=XRols6            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/18_12_10_GISdataUSYD            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: "51950887503"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -299,23 +299,9 @@ eventbrite: "51950887503"          # optional: alphanumeric key for Eventbrite r
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  To participate in the workshop you will need to <a href="https://ndownloader.figshare.com/articles/2009586/versions/10">download the following data</a> and to follow the setup instructions in <a href="https://datacarpentry.org/geospatial-workshop/setup.html">here</a>. <b>We highly recommend you follow the instructions for "Option A: Local Installation" to install everything locally on your computer as opposed to using the Docker image</b>.
 </p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
+
 
 <!--- #uncomment subsets of this if you need something DV
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
@@ -649,6 +635,8 @@ eventbrite: "51950887503"          # optional: alphanumeric key for Eventbrite r
 {% endcomment %}
 
 --->
+
+<!---
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -699,3 +687,5 @@ eventbrite: "51950887503"          # optional: alphanumeric key for Eventbrite r
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
+
+-->
