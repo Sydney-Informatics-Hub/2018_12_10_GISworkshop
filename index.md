@@ -1,20 +1,20 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "sip"    # what kind of Carpentry (must be either "lc" or "dc" or "swc") FIXME customise to sih and sihp for partner workshops
-venue: "Brain & Mind Centre University of Sydney"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Room 301/2, Building F, 94 Mallett St, Camperdown NSW 2050"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+carpentry: "sih"    # what kind of Carpentry (must be either "lc" or "dc" or "swc") FIXME customise to sih and sihp for partner workshops
+venue: "New Law Building Learning Studio 030 University of Sydney"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "New Law Building Learning Studio 030, University of Sydney Camperdown Campus, NSW 2050"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "-33.888886,151.177988"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Nov 12th, 19th, and 26th - 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "2:00 pm - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-11-12      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-11-26         # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Nicholas Ho","Darya Vanichkina"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Richard Morris","Maryam Montazerolghaem"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["nicholas.ho@sydney.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+latlng: "-33.887563,151.190263"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+humandate: "Dec 10th- 11th - 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2018-12-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-12-11         # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Darya Vanichkina"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["darya.vanichkina@sydney.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://unisyd-my.sharepoint.com/:w:/g/personal/nicholas_ho_sydney_edu_au/EWrpk_c7aZVPv8j4FkIboeABXXJE2xhjjPkwAYcM0CiXXQ?e=XRols6            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: "50385247632"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: "51950887503"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -244,7 +244,7 @@ eventbrite: "50385247632"          # optional: alphanumeric key for Eventbrite r
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. Course material can be found <a href="https://sydney-informatics-hub.github.io/lessonbmc">here</a>. 
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. Course material can be found <a href="https://sydney-informatics-hub.github.io/lessonbmc">here</a>.
 </p>
 {% endif %}
 

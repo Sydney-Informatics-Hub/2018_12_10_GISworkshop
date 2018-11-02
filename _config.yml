@@ -10,8 +10,8 @@
 carpentry: "sip"
 
 # Overall title for pages.
-title: "BMC workshop"
-series_name: "Partner workshop"
+title: "Data Carpentry Geospatial Data Analysis Workshop"
+series_name: "Data Carpentry workshop"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -51,19 +51,19 @@ cc_nc_human: "https://creativecommons.org/licenses/by-nc/4.0/"
 cc_nc_legal: "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
 
 # Surveys.
-swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
-swc_post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
-training_post_survey: "https://www.surveymonkey.com/r/post-instructor-training"
-dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_id="
-dc_post_survey: "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id="
+swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id=" #FIXME
+swc_post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=" #FIXME
+training_post_survey: "https://www.surveymonkey.com/r/post-instructor-training" #FIXME
+dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_id=" #FIXME
+dc_post_survey: "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id=" #FIXME
 lc_pre_survey: "https://www.surveymonkey.com/r/lcpreworkshopsurvey?workshop_id="
 lc_post_survey: "https://www.surveymonkey.com/r/lcpostworkshopsurvey?workshop_id="
-instructor_pre_survey: "https://www.surveymonkey.com/r/instructor_training_pre_survey?workshop_id="
-instructor_post_survey: "https://www.surveymonkey.com/r/instructor_training_post_survey?workshop_id="
+instructor_pre_survey: "https://www.surveymonkey.com/r/instructor_training_pre_survey?workshop_id=" #FIXME
+instructor_post_survey: "https://www.surveymonkey.com/r/instructor_training_post_survey?workshop_id=" #FIXME
 
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
-start_time: 0
+start_time: 540
 
 # Specify that things in the episodes collection should be output.
 collections:
