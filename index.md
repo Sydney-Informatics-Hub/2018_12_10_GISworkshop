@@ -268,7 +268,6 @@ eventbrite: "51950887503"          # optional: alphanumeric key for Eventbrite r
   'tools/check' as well.
 {% endcomment %}
 
-{% comment %}
 <h2 id="syllabus">Syllabus</h2>
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
@@ -282,7 +281,6 @@ eventbrite: "51950887503"          # optional: alphanumeric key for Eventbrite r
   {% include sip/syllabus.html %}
 {% endif %}
 <hr/>
-{% endcomment %}
 
 {% comment %}
   SETUP
